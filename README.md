@@ -1,3 +1,3 @@
 # tampermonkey-scripts
 
-https://gist.github.com/Miangame/8fd5833c1d431d3ea9d0bb6d49f18191
+If you open the script as "Raw", you can install it.
