@@ -23,6 +23,7 @@
     EMILIO_PATRONUS: "emiliopatronus",
     ED_REPARO: "ed reparo",
     LUMOS: "lumos",
+    REVELIO: "revelio",
   };
 
   const buttons = [
@@ -50,6 +51,11 @@
       text: "Lumos",
       description: "Activates the ED",
       command: commands.LUMOS,
+    },
+    {
+      text: "Revelio",
+      description: "Exposes the ED outside the VPN",
+      command: commands.REVELIO,
     },
   ];
 
