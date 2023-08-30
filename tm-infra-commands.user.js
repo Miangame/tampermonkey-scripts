@@ -99,7 +99,10 @@
     const existsNewButtonsContainer = document.getElementById("infra-commands");
 
     if (buttonsContainer && !existsNewButtonsContainer) {
-      buttonsContainer.appendChild(newButtonsContainer);
+      buttonsContainer.parentElement.insertBefore(
+        newButtonsContainer,
+        buttonsContainer.nextSibling
+      );
 
       buttons.forEach(({ text, description, command }) => {
         newButtonsContainer.appendChild(
